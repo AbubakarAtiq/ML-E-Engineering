@@ -1,0 +1,47 @@
+chapter 10 electrical instruments and measurements uploads 381-458
+chapter 11-19 are ready, ch19 671-758
+chapter 20 Harmonics  759-784
+{Funamental wave and harmoncis, different complex waveforms, general equation of a complex wave
+, R.M.S value of a complex wave, form factor of a complex wave, power supplied by a complex wave,
+harmonics in single-phase A.C. circuits, selective resonance due to harmoncis,
+effect of harmoncis on measurement of inductane and capacitance, harmonics in different three-phase
+system, harmonics in single and 3-phase transformers}
+chapter 21 Fourier series 785-820
+{Harmonic analysis, periodic functions, trigonometric fourier series, alternate forms of 
+trigonometric fourier series, certain useful integral calculus theorems, evaluation of fourier constants,
+different types of functional symmetries, line or frequency spectrum, procedure for finding the fourier
+series of a given function, wave analyzer, spectrum analyzer, fourier analyzer, harmonic synthesis.
+}
+chapter 22 transients 821-840
+{Types of transients, important differential equations, transients in R-L circuits (D.C.), 
+short circuit current, time constant, transients in R-L circuits (A.C.),
+transients in R-C serie circuits (D.C), transients in R-C series circuits (A.C.),double energy transients
+}
+chapter 23 symmetrical components 841-860
+{the positive-sequence components, the negative-sequence components, the zero-sequence components,
+}
+chapter 24 introduction to electrical energy generation 861-
+{perfence for electricity, comparison of sources of power, sources for generation of electricity,
+brief aspects of electrical energy systems,}
+volume-II{AC and DC machines}
+chapter 25 elements of electromechanical energy conversion 872-893
+{energy-balance, magnetic-field system: energy and co-energy,linear system, a simple electro-
+mechanical system, description of simple system}
+chapter 26 D.C generators 894-943
+{generator principal, simple loop generator, practical generator, yoke, pole cores and poles shoes,
+pole coils, armature core, armature windings, bushes and bearlings, pole-pitch}
+chapter 27 armature reaction and communication 944-973
+{armature reaction, demagnetising and cross-magnetising conductors,demagnetising AT per Pole,
+cross-magnetising AT per pole, compensating windings, Load sharing}
+chapter 28 Generator characteristics 974-1001
+{characteristics of D.C generators, separately-excited generator, no-load curve for self-excited generator,
+how to find critical resistance? how to draw O.C.C at different speeds?, critical speed, voltage build up
+of a shunt generator}
+chapter 29 D.C.Motor 1002-1037
+{motor principle, compound motors, performance curves, comparsion of shunt and series motors}
+chapter 30 speed control of D.C. motors 1038-
+{
+factors controlling motor speed, electric braking, four-point starter
+}
+chapter 31 testing of D.C machines 1098-
+{}
