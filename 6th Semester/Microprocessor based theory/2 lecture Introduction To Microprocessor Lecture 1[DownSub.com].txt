@@ -1,0 +1,168 @@
+ microprocessor is a cpu in a micro
+
+computer so here in this microprocessor
+
+this is nothing but a single integrated
+
+circuits which combines ALU and control
+
+unit and memory so here you can see the
+
+definition of your microprocessor
+
+microprocessor is a central processing
+
+unit on a single integrated circuit
+
+containing millions of very small
+
+devices includes transistors resistors
+
+and diodes so here you can see so many
+
+examples for microprocessor so four zero
+
+zero four is one of starting
+
+microprocessor with 4-bit world length
+
+and 640 bytes of the addressing capacity
+
+and 16 pins so it's having 16 pins that
+
+means that I see 4 0 0 4 microprocessor
+
+IC is having 16 pins so similarly we are
+
+having 8 0 0 8 microprocessor that's of
+
+8-bit you can see the mole length is
+
+keep on increasing from one micro
+
+processor to another micro processor so
+
+this is of 16 KP addressing capacity
+
+this having 16 KB addressing capacity
+
+and the number of pins are 18 so like
+
+that we are having next micro processor
+
+at 0 at 0 so here also the wall length
+
+is 8 bit but addressing capacity is
+
+increasing from 16 KB to 64 KB now the
+
+number of pins also increased in this
+
+micro processor the number of pins are
+
+40 here and coming to 8 0 8 5 this is
+
+very important micro process that we
+
+need to discuss because in in any
+
+technical exams they will ask 8 0 8 4 &
+
+8 0 8 6 only so here for 8 0 8 5 micro
+
+processor this is also 8-bit word length
+
+that means 8-bit microprocessor and here
+
+it's having 64 KB addressing capacity
+
+and coming to the number of pins from
+
+here onwards you are having 40 penises
+
+that means 4 8 0 8 5 IC we are having 40
+
+pins so here we have
+
+8:08 microprocessor in which the woldn't
+
+is increased from 8-bits to 16-bits from
+
+this onwards our volunteers increased to
+
+8-bits to 16-bits so for this the
+
+addressing capacity is 1 MB and here the
+
+pins are same with same 40 pins here
+
+while length is increased and addressing
+
+capacity is increased so 8 0 8 5 & 8 0 8
+
+6 are very important for any technical
+
+point of view technical exam point of
+
+view here not only these microprocessor
+
+we are having so many micro process like
+
+Pentium and Pentium Pro Pentium 2 all
+
+these we are having as our micro process
+
+which we are using widely in today's so
+
+here simply micro processor is nothing
+
+but a IC so integrated so many
+
+transistors it's a integration structure
+
+of so many transistors diodes and
+
+resistors so here coming to by send-up
+
+kb so here you can see KB KB is nothing
+
+but so kilobytes so here what is meant
+
+by a byte generally you can absorb bit
+
+signal digital data so Big D is nothing
+
+but single digit in a binary data it's
+
+called as bit so nibble is nothing but 4
+
+bits combined that is called as nibble
+
+coming to bite bite is nothing but 8
+
+bits that means how you are having 1 0 1
+
+0 1 0 1 1 1 1 like this so if you group
+
+or 4 bits then that is called as a
+
+nipple if you group with 8 bits then
+
+that is called as a byte so group of 8
+
+bits is called as a byte so now so this
+
+is about small introduction of micro
+
+processor from next day onwards we are
+
+going to discuss name from next class
+
+onwards we are going to discuss the
+
+architecture of 8 0 8 5 processor and
+
+addressing modes and everything
+
+are going to discuss from next class
+

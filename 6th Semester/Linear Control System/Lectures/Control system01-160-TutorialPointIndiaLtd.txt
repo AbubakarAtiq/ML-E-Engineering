@@ -1,0 +1,22 @@
+A system which consist of number of components connected together to perform a specific function
+in which the output is controlled by input
+Open loop system:
+Advantages:
+1.Simple and economical
+2.easier to construct
+3.Stable
+Disadvantages:
+1.In accurate
+2. Changes in the output are not
+ corrected automatically.
+Closed loop system:
+Advantages:
+1.Accurate
+2.less effected by noise.
+Disadvantages:
+1. Complex and costly
+2. Feedback reduces the overall gain of the system.
+3. Stability is a major problem.
+https://youtu.be/zAXAb_ttazY?list=PLWPirh4EWFpFDi8bggPYOiMLlD1D_bBPM
+https://youtu.be/zAXAb_ttazY?list=PLWPirh4EWFpFDi8bggPYOiMLlD1D_bBPM
+Watch this video, Subtiles are not available.

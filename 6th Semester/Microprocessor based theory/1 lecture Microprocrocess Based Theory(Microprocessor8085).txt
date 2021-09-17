@@ -1,0 +1,9 @@
+Microprocessor 8085 Tutorials Point (India) Ltd
+~Micro Computer:
+	A digital computer having a microprocessor as its CPU combined with memory and I/O 
+input and output devices forms a micro computer.
+	CPU
+ALU Register|Array        |
+	      |                  |
+___________|________|..................................Output<------Memory<----->input................Systems
+Control unit		

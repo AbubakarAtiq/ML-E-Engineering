@@ -1,0 +1,249 @@
+https://youtu.be/WrVk_lT60dk?list=PLWPirh4EWFpGpH_Rb6Q4iQ6vGGRA6MORZ
+in this video we are going to discuss
+
+the transfer function of a control
+
+system now tell me for control system
+
+for any system the transfer function is
+
+the ratio of Laplace transform or
+
+transform of output to transform of
+
+input that is the ratio of transform of
+
+output to transform of input
+
+similarly for control system also the
+
+transfer function of a control system is
+
+the ratio of Laplace transform of output
+
+to Laplace transform of input so
+
+generally in Laplace transform stopping
+
+we are going to prefer Laplace
+
+transforms so the equation of transfer
+
+function is equivalent to Laplace
+
+transform of output to Laplace transform
+
+of input with zero initial conditions so
+
+here for example I am having a closer
+
+look at the whole system like this so
+
+I'm having our fer FES as my input
+
+transform and I'm having a somewhere
+
+here so I'm having a negative feedback
+
+system like this and here this is my
+
+open-loop gain G and this is my output
+
+transform and this about my feedback my
+
+feedback gain is hich feedback element
+
+gain eh so this is my closed loop
+
+control system here where input is R of
+
+T where the input transform is our
+
+office and output is C of T and the
+
+Laplace transform of that output C of T
+
+is C of s so everything I consider in
+
+terms of frequency domain and gains so
+
+here in case of this system this is a
+
+negative feedback system in case of this
+
+system so if you want transfer function
+
+so you need to get by using C obvious by
+
+RF es you need to get C obvious pair of
+
+his so how we can get C of s by our
+
+office before getting C obvious by our
+
+office or transfer function I want to
+
+get the value here so here you can see
+
+this is our Fe s minus C a fearsome 2
+
+so this is the point of C obvious so see
+
+our fear seemed to hinge so I am
+
+considering like CH or C of s into H so
+
+this is the point so here this signal
+
+and the feedback signal feedback signal
+
+is nothing but a to see office so
+
+H in to see off is so obvious
+
+- itching to see of years so hey chin to
+
+see office will be the value or at this
+
+point output at this point output so are
+
+obvious - hit chin to see office the
+
+gain where H is the feedback loop gain
+
+and C obvious we are taking as feedback
+
+with gain hitch so here the value at
+
+here is equaling to our affairs - hitch
+
+into C office now if you want to write
+
+the equation for the output at present
+
+point so the C office is equal into our
+
+of his our FES - hitching to see of
+
+years H in to see of his into G so here
+
+I can write this as our epheus into G
+
+our epheus into G minus gh into cos gh
+
+into C office I am just multiplying two
+
+inside the G are multiplying two inside
+
+here I am having C obvious and then C
+
+obvious I am having here so now I can
+
+take that CFS to left side so I will get
+
+I can take common of C obvious 1 plus gh
+
+is equal to RF yes into G but to get
+
+depends a function the equation is
+
+Laplace transform of output by Laplace
+
+transform of input the Laplace transform
+
+of output is C office Laplace transform
+
+of input is our affairs to get transfer
+
+function T
+
+you need to get crcs by orifice form so
+
+if you say me saref yes to this side you
+
+are going to get the transfer function
+
+of the system like this way you need to
+
+calculate for positive feedback system
+
+also so maximum we are going to prefer
+
+negative feedback systems so G by 1 plus
+
+gh will be the transfer function of
+
+negative feedback system so like this if
+
+you calculated the same for positive
+
+feedback system you are going to get G
+
+by 1 minus gh so this is about transfer
+
+function of the system in the next class
+
+we will see how many types of feedbacks
+
+are there so this is negative feedback
+
+system we are having positive feedback
+
+also in the next class we will see how
+
+many types of feedbacks are there how
+
+will write the transfer function of that
+
+positive and negative feedback control
+
+systems
+
+so you'll see clearly there so this 4
+
+negative feedback system the same we are
+
+going to derive in the next class also
+
+along with positive feedback system so
+
+here the transfer function is nothing
+
+but the ratio of output transform by
+
+input transform in case of control
+
+systems we are going to prefer our
+
+output transformer C office and input
+
+transform as our office this is closed
+
+loop control system output this is a
+
+reference input so that's why I am
+
+representing with R so here control
+
+system output I am representing with C
+
+so the transform Laplace transform of
+
+this output is equal into C of s and the
+
+Laplace transform of input our reference
+
+signal is equal into our office when you
+
+want C office by our office form then
+
+that is nothing but the transfer
+
+function of that particular control
+
+system
+
+Transfer Functionof a control system is the ratio of laplace transform of output to laplace transform of input.
+ 
+C(S)=[R(S)-H(C(S))]G
+Take common on both sides.

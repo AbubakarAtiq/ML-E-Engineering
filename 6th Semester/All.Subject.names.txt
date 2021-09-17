@@ -1,0 +1,5 @@
+1.Linear Control system
+2.Numerical Analysis
+3. Computer Aided Design
+4. Microprocessor Based Theory
+5. Digital Signal Processing

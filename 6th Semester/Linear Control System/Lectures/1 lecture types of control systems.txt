@@ -1,0 +1,9 @@
+https://youtu.be/o_Bp7j77Uqc?list=PLWPirh4EWFpGpH_Rb6Q4iQ6vGGRA6MORZ
+Types of control systems:
+1. Linear system
+2.Non linear system
+3. Time variant system
+4. Time invariant system
+5.Linear time variant system LTV
+6. Linear time invariant system LTI
+

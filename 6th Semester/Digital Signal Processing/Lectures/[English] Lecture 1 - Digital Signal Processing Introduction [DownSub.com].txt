@@ -1,0 +1,467 @@
+Welcome to this course on Digital Signal Processing
+being taught by me. My name is S.C. Dutta
+
+Roy and I am an emeritus professor here. This
+is the first lecture in which we are going
+
+to introduce Digital Signal Processing in
+general and the course in particular.
+
+Is the course content readable on the screen?
+It is okay. I shall read it out. The course
+
+contents are given in the sheet that I have
+circulated. This is the span of the course.
+
+Let me tell you I do not expect any prior
+knowledge of DSP from you. All I assume is
+
+that you are acquainted with signals and systems.
+
+However, at least one third of the course
+shall be devoted to a review of signals and
+
+systems because it is extremely important
+that you understand discrete time signals
+
+and discrete time systems and what happens
+when discrete time signals interact with discrete
+
+time systems. The first two topics are: review
+of signals and systems and discrete time signals
+
+and systems in the time domain. We shall discuss
+typical signals. We shall go into the sampling
+
+process and then we shall characterize discrete
+time systems. We shall then introduce the
+
+special class of linear time invariant systems
+which I abbreviate as LTI and discuss classification
+
+of LTI discrete time systems. This will be
+followed by discrete time signals description
+
+or characterization in the frequency domain
+through various kinds of transforms and we
+
+shall introduce the discrete time Fourier
+transform and Discrete Fourier Transform,
+
+abbreviated as DFT.
+
+We shall talk about the computation of DFT;
+in other words, we shall go into the basics
+
+of FFT. We shall talk about linear convolution
+using DFT and also circular convolution using
+
+DFT. Then we shall introduce some new techniques
+which are not available in the book. We shall
+
+introduce Z-transforms in detail and their
+application in characterizing linear time
+
+invariant discrete time systems i.e. system
+description in the frequency domain. In other
+
+words, we shall talk about transfer functions
+and frequency response. Then we shall introduce
+
+simple digital filters, all-pass functions,
+complementary transfer functions and then
+
+digital two-pairs.
+
+We shall go back to sampling and reconstruction
+and have a small discussion on that. Then
+
+will go into digital filter structures that
+are direct, parallel, cascade, ladder and
+
+lattice for Infinite Impulse Response (IIR)
+filters and possible realizations for FIR
+
+or Finite Impulse Response filters, including
+poly phase. All-pass structures and tunable
+
+filters will follow this. We shall spend a
+considerable amount of time on digital filter
+
+design: infinite impulse response using impulse
+invariant and bilinear transformations, and
+
+finite impulse response filters using windowing
+and frequency response sampling techniques.
+
+A short discussion on computer aided design
+will also be included.
+
+We shall discuss spectral transformations
+for IIR design. If time permits, we shall
+
+also have a brief discussion on implementation
+considerations. This is what we aim to cover(?).
+
+At IITs, we do not cover a course; we uncover
+at least certain parts of the course. This
+
+is the aim and it does not matter how much
+we can do, but what we do must get imprinted
+
+in your mind.
+
+The books to consult: I have adapted S. K.
+Mitra, Digital Signal Processing - a computational
+
+approach, McGraw Hill 2000. This is the second
+edition; I would advice you to buy the third
+
+edition, which is available. A 4th edition
+is also due to be published. There are major
+
+changes which were effected by Professor Mitra
+in the later editions at the suggestions of
+
+a few people, including me.
+
+Those who have difficulty with signals and
+systems are advised to buy a copy of 
+
+Oppenheim and Schafer, "Discrete Time Signal
+Processing." This is a Prentice Hall publication,
+
+2000. This is about what we wish to do in
+the course.
+
+Since the topic is digital signal processing
+we shall explain the meaning of the individual
+
+terms and then what the combination means.
+First we concentrate on what is a signal.
+
+These are formal definitions and you must
+understand them very clearly.
+
+A signal in mathematical terms is a function.
+A function is a dependent variable of some
+
+variables which are independent variables.
+The number of independent variables can be
+
+one or more.
+
+In general, a signal is a function of several
+variables. These variables are x1, x2, x3
+
+and so on. These variables, for example could
+be time, distance, temperature or any other
+
+physical parameter. In this course we shall
+mostly be concerned with a function of a single
+
+variable and that variable will be time. But
+because we are talking of digital signal processing,
+
+time shall also lose its significance.
+
+Our functions will be functions of numbers
+and numbers are also restricted to be integers.
+
+In other words, in DSP the type of signal
+that we shall be concerned with are functions
+
+of a variable n, where n can take only integer
+values that are positive or negative. n can
+
+be -- 15 or it can be 0 or + 13 or + 14, but
+n = 13.5 is not permitted because time is
+
+discretized.
+
+If we plot this function or signal versus
+the variables, the resulting plot is called
+
+a waveform. If the function has only one variable,
+then a two dimensional picture in a graph
+
+paper suffices. The ordinary sinusoidal waveform
+that you draw on paper is a one dimensional
+
+signal and this is called a waveform. In general
+the waveform can be multidimensional, depending
+
+on the number of independent variables.
+
+For example, a picture, which is said to be
+worth more than 1000 words, has two dimensions.
+
+A picture should ideally be three dimensional,
+because it has three space variables. Dependent
+
+variable in an image can be brightness, color,
+density or it can be any other thing.
+
+So signals can be one dimensional, two dimensional
+or multi-dimensional. However, we shall be
+
+concerned only with one dimensional signal
+that is f (n). Signals can be natural, for
+
+example a thunderstorm or a lightning which
+are natural phenomena or it can be synthetic.
+
+Signals can be generated in the laboratory
+for communication purposes. Signals can be
+
+either analog or discrete. It is the discrete
+type signals that we are concerned with in
+
+this course.
+
+One common confusion is that all continuous
+signals are also called analog signals. All
+
+continuous time signals are analog signals
+but all analog signals are not continuous
+
+time. If the time is discretized but not the
+amplitude, i.e. If the independent variable
+
+is discretized but not the dependent variable,
+then it is still an analog signal.
+
+Therefore an analog signal 
+can be either continuous time or discrete
+
+time. Discrete time signals are also analog
+signals. If a discrete time signal is quantized,
+
+that is, if in a discrete time signal where
+the independent variable has been discretized,
+
+the amplitude is also discretized, i.e. which
+is allowed to take on only certain specific
+
+values, then it is said to be discretized
+or quantized. So if a discrete time signal
+
+passes through A (analog) to D (digital) converter
+then depending on the number q of bits, 2
+
+to the power q discrete amplitudes are possible;
+for example, a three bit A to D converter
+
+gives 8 possible amplitudes.
+
+After A to D conversion, the signal is also
+coded in some form and the most usual form
+
+is the binary form. After discretization,
+the signal becomes a binary number and that
+
+is what we call a 
+digital signal. I repeat here that analog
+
+and continuous time signals are not one and
+the same.
+
+As I have said earlier all continuous time
+signals are analog signals, but all analog
+
+signals are not continuous time. Analog signals
+can be continuous time and also discrete time.
+
+If the discretization is limited to the independent
+variable or the x axis only, the signal still
+
+remains analog. The digital signal can be
+obtained only when both the independent and
+
+dependent variables are discretized. A discrete
+time signal is analog and a digital signal
+
+is one in which the amplitude is also discretized.
+Why should we study signals at all? We study
+
+about signals because they carry information.
+It is information that drives the whole world,
+
+the basic steps being generation, transmission,
+reception, absorption, and action on the basis
+
+of information.
+
+Information is the basic thread of life and
+therefore we are interested in signals. Why
+
+processing? What is the need for processing?
+Processing is done to obtain the given signal
+
+in a more desirable form. For example, if
+there are a number of signals which are to
+
+be transmitted over the same channel, then
+we do a processing called multiplexing. At
+
+the receiver end the signals have to be separated
+and therefore there is a need for de-multiplexing.
+
+Invariably the signal is corrupted by noise.
+Therefore our processing may aim at filtering
+
+the noise out. I shall illustrate this with
+the help of a specific case, viz. the electrocardiogram
+
+(ECG) waveform.
+
+Electrocardiogram waveform usually looks like
+this. If you take one cycle and blow it up,
+
+it will look like this. Doctors are interested
+where the peaks and dips occur. The standard
+
+language used by doctors for them are PQRST.
+This is a very clean trace that you see here.
+
+If this signal is corrupted, the PQRST points
+may be blurred and difficult to detect.
+
+For example, the ECG waveform is usually corrupted
+with 50 Hertz Power Line Pick Up. The ever
+
+present power, 230 volts 50 Hertz can be induced
+from any nearby equipment. It can be a magnetic
+
+pick up or it can be an electrostatic pick
+up. It can be due to mutual capacitance or
+
+mutual inductance. This is ever present and
+you may like to get rid of the 50 Hertz before
+
+you look at the signal. This is done by a
+notch filter or a band elimination filter
+
+which we shall study in this course.
+
+There are also Electromyographic (EMG) signals
+due to the muscles. The human body is a wonderful
+
+electrical machine. If you put two electrodes
+at any two places of body, it will record
+
+an electric potential. The muscles themselves
+generate electrical signals and they might
+
+corrupt the ECG signal. Hence there is a need
+for processing to get a clean picture.
+
+Signal processing basically can be done in
+three ways: one is analog, that is, do not
+
+convert the signal into digital and process
+it in the analog format itself. The other
+
+two are digital processing and mixed signal
+processing, which is partly analog and partly
+
+digital. One might ask here: what is wrong
+with totally analog processing?
+
+Well, the answer to that is given by the proverb
+two arrows in a quiver is always better than
+
+one, because if one fails, you can use the
+other arrow to hit the enemy. But then why
+
+three? It is three because digital signal
+processing is so much more convenient and
+
+so much more accurate than analog, while most
+of the natural signals that we generate in
+
+the laboratory for communication are analog.
+Therefore you have to use mixed processing.
+
+Analog signal processing dominated the field
+prior to 1970's but after 1970 because of
+
+the easy availability of digital hardware
+in the form of integrated circuit chips at
+
+a very low cost, digital signal processing
+got boosted up.
+
+The current practice is mixed signal processing,
+dominated by digital signal processing. In
+
+other words at any point in the signal processing
+chain if you find that DSP can be used, you
+
+go ahead without thinking about any other
+choice. Analog signal processing advanced
+
+in quantum jumps with the inventions of new
+devices and circuits.
+
+We started with Acharya J.C. Bose's coherer
+and spark gaps. Spark gaps were used to generate
+
+signals and coherer, a galena crystal was
+used to detect signals.
+
+Coherer is a unipolar device and is a crude
+form of a diode as we know it now. That was
+
+what we started with. Marconi's patent on
+telegraph signals also used a kind of spark
+
+gaps with ON/OFF control. He also used an
+improved form of coherer to detect signals.
+
+Then vacuum tubes came in the picture, triode
+in particular, which could amplify a weak
+
+signal. Then in 1947 transistors came in the
+picture which made things smaller and made
+
+life simpler because circuits were more designable
+with smaller power supplies. A 5 volt or 12
+
+volt power supply does the job.
+
+Further reduction in size was made possible
+due to the introduction of operational amplifiers
+
+and other integrated circuits, analog as well
+as digital. Then there occurred this revolution
+
+of small scale integrated circuits, medium
+scale integrated circuits, large scale integrated
+
+circuits and finally VLSI, SSI etc. In fact,
+IC's are only limited by ones imagination
+
+as to how much can you go. However, even today,
+advances in analog signal processing are going
+
+in full swing because most signals of interest
+are analog. The real life signals like the
+
+speech, music etc, are analog. The ultimate
+desired output in most cases is also analog.
+
+Digital telephony has come in. You can process
+speech digitally and transmit digitally but
+
+ultimately you cannot hear 1s and 0s; you
+have to convert into analog signal. Therefore
+
+analog signal processing is also advancing
+and there is a lot of research that is going
+
+on. Mixed signal processing is the trend of
+
+the day.
+
+
