@@ -1,0 +1,17 @@
+vector analysis
+coordinate systems and transformation
+vector calculus
+electrostatic fields
+electric fields in material space
+electrostatic boundary value problems
+-magnetostatics
+magnetostatic fields
+magnetic forces, materials, and devices
+-waves and applications
+maxwell's equations
+electromagnetic wave propagation
+transmission lines
+waveguides
+antennas
+modern topics
+numerical methods
